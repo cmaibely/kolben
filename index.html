@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kolben App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="color-theme-yellow">
+ 
+ <div id="app">
+ 	
+    <section class="panel panel-left panel-cover">
+    	
+        <div class="top-panel">Menú Lateral</div>
+        <div class="block list media-list">
+        	<ul>
+            	<li>
+                	<a href="/home/" class="item-content item-link panel-close">
+                    	<div class="item-media">
+                        	<span class="material-icons">home</span>
+                        </div>
+                        <div class="item-inner">
+                        	Inicio
+                        </div>
+                    </a>
+                </li>
+                <li>
+                	<a href="/account/" class="item-content item-link panel-close link">
+                    	<div class="item-media">
+                        	<span class="material-icons">person</span>
+                        </div>
+                        <div class="item-inner">
+                        	Mi cuenta
+                        </div>
+                    </a>
+                </li>
+            	<li>
+                	<a href="#" class="item-content item-link panel-close link">
+                    	<div class="item-media">
+                        	<span class="material-icons">shopping_cart</span>
+                        </div>
+                        <div class="item-inner">
+                        	Carrito
+                        </div>
+                    </a>
+                </li>
+                <li>
+                	<a href="/contact/" class="item-content item-link panel-close link">
+                    	<div class="item-media">
+                        	<span class="material-icons">contacts</span>
+                        </div>
+                        <div class="item-inner">
+                        	Contacto
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            
+        
+        </div>
+        	
+        
+    </section>
+
+   <div class="view view-main view-init">
+
+		<div class="toolbar toolbar-bottom tabbar-labels">
+          <div class="toolbar-inner">
+            <a href="/home/" class="link"><span class="material-icons">home</span><h3>Inicio</h3></a>
+            <a href="#" class="link"><span class="material-icons">shopping_cart</span><h3>Carrito</h3></a>
+            <a href="/notificaciones/" class="link"><span class="material-icons">notifications</span><h3>Notificaciones</h3></a>
+            <a href="/contact/" class="link"><span class="material-icons">contacts</span><h3>Contacto</h3></a>
+          </div>
+		</div>
+
+    <section data-name="home" class="page">
+
+     <nav class="navbar">
+    	<div class="navbar-bg"></div>
+    		<div class="navbar-inner">
+				<div class="left">
+        			<a href="#" class="link panel-open" data-panel=".panel-left"><span class="material-icons">menu</span></a>
+        		</div>
+        		<div class="title center"><a href="/home/"></a></div>
+				<div class="right">
+        			<a href="#" class="link"><span class="material-icons">settings</span></a>
+       			</div>
+     		</div>
+     </nav>
+
+
+     <!-- Scrollable page content -->
+     <section class="page-content">
+<article class="block">
+                <img src="img/kolben.png" class="img-fluid"  align="center"/>                    
+                  <div class="marcas">
+                  <h2>MARCAS</h2>
+                        <div class="row">
+                        <article class="col-50">
+                            <a href="/toyota/"><img src="img/toyota.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/mitsubishi.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/mazda.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/nissan.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/honda.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/hyundai.png" class="img-fluid"></a>
+                            </article>
+                            <article class="col-50">
+                            <a href="#"><img src="img/isuzu.png" class="img-fluid"></a>
+                            </article>
+                        </div>
+			</div>
+                    </article>
+                       
+     </section> <!-- content -->
+      
+    </section> <!-- page -->
+	
+    	<section id="login">
+			<div class="login-screen modal-in">
+			  <div class="page-content login-screen-content ">
+				<div class="block"> <img width="180" src="img/user.png"></div>
+				<div class="login-screen-title">Iniciar Sesión</div>
+				<form>
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						 
+						  <div class="item-input">
+							<input type="text" name="username" placeholder="Correo Electrónico">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						 
+						  <div class="item-input">
+							<input type="password" name="password" placeholder="Contraseña">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+
+				</form>
+
+					<div class="block text-align-center">
+						<div class="row">
+							<article class="col">
+								<a id="iniciar-sesion" href="#" class="button button-fill login-screen-close">Iniciar Sesión</a>
+							</article>
+							<article class="col">
+								<a id="registrarse" href="#" class="button button-fill popup-open" data-popup="#sign-up">Registrarse</a>
+							</article>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	   
+	   <section id="sign-up" class="popup">
+       	<div class="block"> <img width="180" src="img/user.png"></div>
+       		<h1 class="text-align-center">Registrarse</h1>
+       	
+       		
+       		<div class="block">
+       			<form id="form" class="list">
+       				<ul>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								
+								<div class="item-input-wrap">
+								  <input type="text" name="name" placeholder="Nombre Completo" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								
+								<div class="item-input-wrap">
+								  <input type="email" name="email" placeholder="Correo Electrónico" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								
+								<div class="item-input-wrap">
+								  <input type="tel" name="email" placeholder="Número de Teléfono" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       					<li>
+       						<div class="item-content item-input">
+							  <div class="item-inner">
+								
+								<div class="item-input-wrap"> 
+								  <input type="password" name="email" placeholder="Contraseña" />
+								</div>
+							  </div>
+							</div>
+       					</li>
+       				</ul>
+       				
+       			</form>       			
+       			
+       		</div>
+       		
+       		<div class="block" id="botones"> 
+       			<a href="#" class="button button-fill popup-close login-screen-close" >Registrarme</a>
+       			<p><a href="#" class="popup-close button">Cancelar</a></p>
+       		</div>
+       		
+       	</section>
+     
+   </div> <!-- view -->
+    
+  </div><!-- app -->
+
+		<script src="js/framework7.bundle.min.js"></script>
+		<script src="js/my-app.js"></script>
+        
+</body>
+
+</html>

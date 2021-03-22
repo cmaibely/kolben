@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+:root{
+ 	--f7-theme-color:#ffdd15;
+  	--f7-navbar-bg-color: #fff; /*navbar*/
+  	--f7-navbar-text-color:#fff; /*color texto navbar*/
+	--f7-bars-link-color:#000; /*color íconos navbar*/
+  	--f7-bars-bg-color:#000; /*toolbar*/
+	--f7-tabbar-link-inactive-color: #0e3746;
+	--color-amarillo:#ffc30c;
+	--color-gris:#dadde1;
+}
+
+.block-title{
+	color: var(--color-amarillo);
+}
+
+.title{
+	font-size: 30px;
+	line-height: normal;
+	text-align:center;
+}
+
+.top-panel{
+	background-color: var(--f7-theme-color);
+	color: #000;
+	padding:20px;
+	font-weight:600;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.panel .list{
+	margin-top: 0;
+}
+
+.panel .list ul::before,
+.panel .list ul::after{
+	background-color: transparent;
+}
+
+.panel .list .item-inner::after{
+	background-color:transparent;
+}
+
+.panel .list span{
+	color: var(--color-amarillo);
+}
+.panel .list{
+	font-size: 14px;
+}
+
+
+
+.marcas h2{
+	font-size: 24px;
+	text-align: center;
+}
+
+.marcas a img{
+	margin: 10px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	margin: 2px 0;
+}
+
+img{
+	display:block;
+	margin:auto;
+}
+
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+
+
+.products .card{
+	box-shadow:none;
+}
+
+#topper{
+	padding:0;
+	color: var(--color-negro);
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#topper h2{
+	text-transform: uppercase;
+}
+
+.products .card-content{
+	padding:5px 15px;
+	color: var(--color-negro);
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.products .button{
+	font-size: 12px;
+	width: 100%;
+	background-color: var(--f7-theme-color);
+	color: #000;
+	font-weight:700;
+}
+
+.products .card-footer{
+	padding: 0;
+	min-height: 0;
+}
+
+.products #info .card-footer{
+	margin-top: 15px;
+	padding: 0;
+	min-height: 0;
+}
+
+.products #info .card-header{
+	padding: 0;
+}
+
+.products .card-header{
+	padding: 0;
+}
+
+.products .card-header img{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.products #info #bottom{
+	margin-top: 50px;
+}
+
+
+.products #info #bottom .button{
+	height: 100%;
+}
+
+.toolbar{
+	height: 85px;
+	padding-top: 0;
+}
+
+.toolbar.tabbar-labels .link{
+	padding-top: 0;
+}
+
+.toolbar.tabbar-labels a h3{
+	font-size: 12px !important;
+	text-transform: none;
+	color: #fff;
+	font-weight:500;
+}
+.toolbar .material-icons{
+	font-size: 25px !important;
+	color: #fff !important;
+}
+
+#contactos ul{
+	list-style: none;
+	padding:0;
+}
+
+#contactos .item-media{
+	margin: 20px 10px;
+}
+
+#contactos .item-inner{
+	font-size: 17px;
+}
+
+#login .login-screen-content{
+	margin: 0 30px;
+}
+
+#login .login-screen-content .login-screen-title{
+	font-size: 20px;
+}
+
+#login .login-screen-content input{
+	font-size: 20px;
+	background-color: #F3F3F3;
+	border-radius: 20px;
+	color: #6C6C6C;
+	text-align: center;
+	width: 280px;
+}
+#login .login-screen-content #iniciar-sesion.button{
+	color: #000000;
+	font-weight: 700;
+	border-radius: 10px;
+}
+
+#login .login-screen-content #registrarse.button{
+	background-color: #000000;
+	font-weight: 700;
+	border-radius: 10px;
+}
+
+#sign-up .item-input-wrap input{
+	font-size: 16px;
+	background-color: #F3F3F3;
+	border-radius: 20px;
+	color: #6C6C6C;
+	text-align: left;
+	width: 260px;
+	padding-left: 20px;
+}
+
+#sign-up .list {
+	margin: 0 25px;
+}
+
+#sign-up #botones.block{
+	margin: 0 17%;
+	padding: 0;
+	text-align: center;
+}
+
+#sign-up #botones .button{
+	width: 250px;
+	text-align: center;
+	font-weight: 700;
+}
+
+#sign-up #botones a{
+	color: #000000;
+	font-weight: 500;
+}
+
+#account .block-title.title{
+	color: #000;
+	font-weight: 700;
+	text-align: left;
+}
+
+#account .item-title{
+	font-weight:600;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+#account .item-subtitle{
+	font-size: 16px;
+}
+
+#account #usuario .media-list{
+	list-style: none;
+}
+
+#account #etiquetas .media-list{
+	background-color: #fff;
+	box-shadow: 0px 0px 10px 4px #f3f3f3;
+	border-radius: 40px;
+}
+
+#account #etiquetas .media-list li{
+	margin: 15px;
+}
+
+#account #etiquetas .media-list .item-content:hover{
+	background-color: #f3f3f3;
+	color: var(--color-amarillo);
+}
+
+#notificaciones .block-title.title{
+	color: #000;
+	font-weight: 700;
+	text-align: left;
+}
+
+#notificaciones .card{
+	margin: 15px;
+}
+
+#notificaciones .card:hover{
+	box-shadow: 0px 0px 10px 5px var(--color-amarillo);
+}
+
+#notificaciones .card-header{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+}
